@@ -1,11 +1,11 @@
 #Code Book
 This code book for the Getting and Cleaning Data course project includes information about the source data, decisions made during the transformation to a tidy dataset, and information about the variables in the tidy data set.
 
-#Source Study 
+##Source Study 
 
 The source data was collected from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) to complete an assignment for a Coursera course named Getting and Cleaning Data. The assignment involved working with the [data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and producing tidy data representation of the source data. See below for more detail on the source data. 
 
-#Source Data Notes
+##Source Data Notes
 
 The following information about the source data is quoted from [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
@@ -44,7 +44,7 @@ The set of variables that were estimated from these signals are and were used in
 *mean(): Mean value
 *std(): Standard deviation
 
-#Tidy Data Set Notes
+##Tidy Data Set Notes
 
 In both the source data and the Tidy Data output, measured such as "tBodyAcc-XYZ" as listed above are in fact stored as three separate variables: tBodyAcc-X, tBodyAcc-Y, and tBodyAcc-Z. 
 
