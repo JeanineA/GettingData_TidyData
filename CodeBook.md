@@ -28,21 +28,21 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 * tBodyAccMag
 * tGravityAccMag
 * tBodyAccJerkMag
-*tBodyGyroMag
-*tBodyGyroJerkMag
-*fBodyAcc-XYZ
-*fBodyAccJerk-XYZ
-*fBodyGyro-XYZ
-*fBodyAccMag
-*fBodyAccJerkMag
-*fBodyGyroMag
-*fBodyGyroJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 
 The set of variables that were estimated from these signals are and were used in the Tidy Data project are:  
 
-*mean(): Mean value
-*std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 ##Tidy Data Set Notes
 
@@ -52,74 +52,74 @@ Identification of the mean and standard deviation variables are based on  having
 Original variable names were made more friendly by replacing "-", "(", and ")" with a period and removing any resulting repeating periods.  
 
 #Tidy Data Variables
-*activity_name: the activity that the subject was doing at the time of the measurement (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-*subject_id: 1 to 30 each representing a participant in the study
-*tBodyAcc.mean.X
-*tBodyAcc.mean.Y
-*tBodyAcc.mean.Z
-*tGravityAcc.mean.X
-*tGravityAcc.mean.Y
-*tGravityAcc.mean.Z
-*tBodyAccJerk.mean.X
-*tBodyAccJerk.mean.Y
-*tBodyAccJerk.mean.Z
-*tBodyGyro.mean.X
-*tBodyGyro.mean.Y
-*tBodyGyro.mean.Z
-*tBodyGyroJerk.mean.X
-*tBodyGyroJerk.mean.Y
-*tBodyGyroJerk.mean.Z
-*tBodyAccMag.mean.
-*tGravityAccMag.mean.
-*tBodyAccJerkMag.mean.
-*tBodyGyroMag.mean.
-*tBodyGyroJerkMag.mean.
-*fBodyAcc.mean.X
-*fBodyAcc.mean.Y
-*fBodyAcc.mean.Z
-*fBodyAccJerk.mean.X
-*fBodyAccJerk.mean.Y
-*fBodyAccJerk.mean.Z
-*fBodyGyro.mean.X
-*fBodyGyro.mean.Y
-*fBodyGyro.mean.Z
-*fBodyAccMag.mean.
-*fBodyBodyAccJerkMag.mean.
-*fBodyBodyGyroMag.mean.
-*fBodyBodyGyroJerkMag.mean.
-*tBodyAcc.std.X
-*tBodyAcc.std.Y
-*tBodyAcc.std.Z
-*tGravityAcc.std.X
-*tGravityAcc.std.Y
-*tGravityAcc.std.Z
-*tBodyAccJerk.std.X
-*tBodyAccJerk.std.Y
-*tBodyAccJerk.std.Z
-*tBodyGyro.std.X
-*tBodyGyro.std.Y
-*tBodyGyro.std.Z
-*tBodyGyroJerk.std.X
-*tBodyGyroJerk.std.Y
-*tBodyGyroJerk.std.Z
-*tBodyAccMag.std.
-*tGravityAccMag.std.
-*tBodyAccJerkMag.std.
-*tBodyGyroMag.std.
-*tBodyGyroJerkMag.std.
-*fBodyAcc.std.X
-*fBodyAcc.std.Y
-*fBodyAcc.std.Z
-*fBodyAccJerk.std.X
-*fBodyAccJerk.std.Y
-*fBodyAccJerk.std.Z
-*fBodyGyro.std.X
-*fBodyGyro.std.Y
-*fBodyGyro.std.Z
-*fBodyAccMag.std.
-*fBodyBodyAccJerkMag.std.
-*fBodyBodyGyroMag.std.
-*fBodyBodyGyroJerkMag.std.
+* activity_name: the activity that the subject was doing at the time of the measurement (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+* subject_id: 1 to 30 each representing a participant in the study
+* tBodyAcc.mean.X
+* tBodyAcc.mean.Y
+* tBodyAcc.mean.Z
+* tGravityAcc.mean.X
+* tGravityAcc.mean.Y
+* tGravityAcc.mean.Z
+* tBodyAccJerk.mean.X
+* tBodyAccJerk.mean.Y
+* tBodyAccJerk.mean.Z
+* tBodyGyro.mean.X
+* tBodyGyro.mean.Y
+* tBodyGyro.mean.Z
+* tBodyGyroJerk.mean.X
+* tBodyGyroJerk.mean.Y
+* tBodyGyroJerk.mean.Z
+* tBodyAccMag.mean.
+* tGravityAccMag.mean.
+* tBodyAccJerkMag.mean.
+* tBodyGyroMag.mean.
+* tBodyGyroJerkMag.mean.
+* fBodyAcc.mean.X
+* fBodyAcc.mean.Y
+* fBodyAcc.mean.Z
+* fBodyAccJerk.mean.X
+* fBodyAccJerk.mean.Y
+* fBodyAccJerk.mean.Z
+* fBodyGyro.mean.X
+* fBodyGyro.mean.Y
+* fBodyGyro.mean.Z
+* fBodyAccMag.mean.
+* fBodyBodyAccJerkMag.mean.
+* fBodyBodyGyroMag.mean.
+* fBodyBodyGyroJerkMag.mean.
+* tBodyAcc.std.X
+* tBodyAcc.std.Y
+* tBodyAcc.std.Z
+* tGravityAcc.std.X
+* tGravityAcc.std.Y
+* tGravityAcc.std.Z
+* tBodyAccJerk.std.X
+* tBodyAccJerk.std.Y
+* tBodyAccJerk.std.Z
+* tBodyGyro.std.X
+* tBodyGyro.std.Y
+* tBodyGyro.std.Z
+* tBodyGyroJerk.std.X
+* tBodyGyroJerk.std.Y
+* tBodyGyroJerk.std.Z
+* tBodyAccMag.std.
+* tGravityAccMag.std.
+* tBodyAccJerkMag.std.
+* tBodyGyroMag.std.
+* tBodyGyroJerkMag.std.
+* fBodyAcc.std.X
+* fBodyAcc.std.Y
+* fBodyAcc.std.Z
+* fBodyAccJerk.std.X
+* fBodyAccJerk.std.Y
+* fBodyAccJerk.std.Z
+* fBodyGyro.std.X
+* fBodyGyro.std.Y
+* fBodyGyro.std.Z
+* fBodyAccMag.std.
+* fBodyBodyAccJerkMag.std.
+* fBodyBodyGyroMag.std.
+* fBodyBodyGyroJerkMag.std.
 
 
 
