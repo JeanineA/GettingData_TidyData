@@ -4,7 +4,7 @@ This repository hosts the R code and documentation files for the Data Science's 
 ##Overview
 
 This project serves to demonstrate the collection and cleaning of a tidy data set that can be used for subsequent analysis.
-The source data for this project is Human Activity Recognition Using Smartphones. A full description of the source data used as a basis for this project can be found at The UCI Machine Learning Repository. 
+The source data for this project is located at [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). A full description of the source data used as a basis for this project can be found at The UCI Machine Learning Repository. 
 This project requires data transformations and calculations to create a tidy data set. A description of the data transformations and resulting tidy dataset can be found this repro's Code Book.
 
 ##Using this Script
